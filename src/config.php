@@ -11,6 +11,12 @@ return [
     'caching' => false,
     // 缓存周期(开启缓存生效) 单位:秒
     'cache_lifetime' => 120,
+    // 默认模板渲染规则 1 解析为小写+下划线 2 全部转换小写 3 保持操作方法
+    'auto_rule'     => 1,
+    // 模板后缀
+    'view_suffix'   => 'tpl',
+    // 模板文件名分隔符
+    'view_depr'     => DIRECTORY_SEPARATOR,
     // Smarty工作空间目录名称(该目录用于存放模板目录、插件目录、配置目录)
     'workspace_dir_name' => 'view',
     // 模板目录名
