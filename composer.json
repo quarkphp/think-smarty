@@ -1,0 +1,44 @@
+{
+  "name": "quarkphp/think-smarty",
+  "description": "Smarty integration for thinkphp6.x,8.x",
+  "keywords": [
+    "thinkphp6",
+    "thinkphp8",
+    "smarty",
+    "templating"
+  ],
+  "homepage": "https://gitee.com/quarkphp/think-smarty",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "quarkphp\\smarty\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "quarkphp",
+      "email": "10689579@qq.com",
+      "homepage": "https://gitee.com/quarkphp",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "topthink/framework": "^6.0 || ^8.0",
+    "smarty/smarty": "~4.4.0"
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "quarkphp\\smarty\\Service"
+      ],
+      "config": {
+        "smarty": "src/config.php"
+      }
+    }
+  }
+}
