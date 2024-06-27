@@ -1,10 +1,11 @@
 {
   "name": "quarkphp/think-smarty",
-  "description": "Smarty integration for thinkphp6.x,8.x",
+  "description": "Smarty integration for thinkphp6.x,thinkphp8.x",
   "keywords": [
     "thinkphp6",
     "thinkphp8",
     "smarty",
+    "smarty5",
     "templating"
   ],
   "homepage": "https://gitee.com/quarkphp/think-smarty",
