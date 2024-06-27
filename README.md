@@ -1,5 +1,5 @@
 # think-smarty
-Smarty integration for thinkphp6.x,8.x
+Smarty integration for thinkphp6.x-8.x
 
 基于thinkphp封装的smarty模板引擎
 
@@ -9,6 +9,7 @@ Smarty integration for thinkphp6.x,8.x
 
 版本说明：
 1.0.1支持smarty4.x
+
 2.0.1支持smarty5.x
 
   
