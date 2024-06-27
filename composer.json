@@ -29,7 +29,7 @@
   "minimum-stability": "stable",
   "require": {
     "topthink/framework": "^6.0 || ^8.0",
-    "smarty/smarty": "^4.4"
+    "smarty/smarty": "^5.0"
   },
   "extra": {
     "think": {
